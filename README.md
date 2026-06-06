@@ -1,19 +1,33 @@
-# Project Name (e.g., UrbAcademy Frontend / AI Car Rental)
+# UrbAcademy HR Management System (HRMS)
 
-## 📌 Overview
-Provide a 2-3 sentence professional summary here. (e.g., "This repository contains the frontend architecture for the UrbAcademy EdTech platform. It features a responsive Glassmorphism UI, strict role-based access control, and seamless integration with a PostgreSQL/Supabase backend.")
+## 📌 Architecture Overview
+This repository contains the core frontend and backend integration architecture for the UrbAcademy HR Management System (HRMS). Designed from inception to production, this platform provides secure, scalable employee management, real-time data retrieval, and strict Role-Based Access Control (RBAC).
 
-## 🚀 Tech Stack
-- **Framework:** React / Vite *(Note: Change to Next.js 14 if this is your main project!)*
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS & shadcn/ui
-- **State Management:** React Hooks
-- **Deployment:** Vercel / Cloudflare
+## 🚀 Core Tech Stack
+* **Framework:** Next.js 14 (React)
+* **Language:** TypeScript
+* **Database & Auth:** PostgreSQL & Supabase
+* **UI & Styling:** Tailwind CSS, shadcn/ui, Framer Motion
+* **Deployment & Edge:** Vercel, Cloudflare
 
-## ⚙️ Getting Started
+## ✨ Key Features
+* **Role-Based Access Control (RBAC):** Strict security policies utilizing Supabase Auth to isolate Admin, HR, and Standard Employee routing and data access.
+* **Relational Data Integrity:** Normalized PostgreSQL database schemas handling employees, departments, and attendance logs.
+* **Premium UI/UX:** Responsive, mobile-first layouts featuring Glassmorphism design and GPU-accelerated page transitions via Framer Motion.
+* **Zero Layout Shift:** Highly optimized component-driven architecture to ensure peak Web Vitals and zero cumulative layout shift across all breakpoints.
+* **Automated CI/CD:** Seamless edge deployment pipelines configured through Vercel.
 
-Follow these steps to set up the project locally for development.
+## ⚙️ Local Development Setup
+
+Follow these steps to run the HRMS architecture on your local machine.
 
 ### Prerequisites
-Ensure you have Node.js and npm installed on your local machine.
+* Node.js 18+ installed
+* A Supabase project setup for database and authentication
+* Git
 
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <YOUR_GIT_URL>
